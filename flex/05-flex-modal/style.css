@@ -22,6 +22,32 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.new-container {
+  margin: 20px;
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.header {
+  font-weight: 800;
+  font-size: large;
+}
+
+.close-button {
+  align-items: end;
+}
+
+.title-cancel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -33,6 +59,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 15px;
 }
 
 .close-button {
